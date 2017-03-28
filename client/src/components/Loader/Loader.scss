@@ -1,0 +1,105 @@
+@import "~bpk-mixins";
+
+@mixin generateBoxVariation($variation, $delay) {
+  $anim-name: anim-#{$variation};
+  $left: calc(50% + #{$variation});
+
+  @keyframes #{$anim-name} {
+    0% {
+      left: -10%;
+    }
+    50% {
+      left: $left;
+    }
+    100% {
+      left: 110%;
+    }
+  }
+
+  left: -10%;
+
+  animation-name: $anim-name;
+  animation-duration: 2s;
+  animation-delay: $delay;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader-anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background-color: rgba($bpk-color-white, 0.9);
+  opacity: 0;
+  animation-name: loader-anim;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  &_box {
+    &-list {
+      display: block;
+      width: 100%;
+      position: fixed;
+      top: 50%;
+      left: 0;
+      margin-top: 40px;
+    }
+    &-item {
+      width: 50px;
+      height: 3px;
+      display: block;
+      top: 0;
+      left: 0;
+      transition: all 0.3s ease-in-out;
+      transform: translateX(-50%);
+      position: absolute;
+
+      &--red {
+        background-color: $bpk-color-red-500;
+        @include generateBoxVariation(1px, 0);
+      }
+      &--green {
+        background-color: $bpk-color-green-500;
+        @include generateBoxVariation(16px, .2s);
+      }
+      &--yellow {
+        background-color: $bpk-color-yellow-500;
+        @include generateBoxVariation(32px, .4s);
+      }
+      &--blue {
+        background-color: $bpk-color-blue-500;
+        @include generateBoxVariation(48px, .6s);
+      }
+    }
+  }
+
+  &_spinner {
+    &-container {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    &-text {
+      text-transform: uppercase;
+      color: $bpk-color-gray-500;
+      font-weight: 700;
+      display: block;
+      text-align: center;
+    }
+  }
+}

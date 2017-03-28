@@ -1,0 +1,97 @@
+@import "~bpk-mixins";
+
+@mixin burger-layer {
+  display: block;
+  background-color: $bpk-color-blue-500;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  transition: all .2s ease;
+  @include bpk-border-radius-sm();
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $bpk-spacing-md $bpk-spacing-md;
+  position: relative;
+  z-index: 1;
+
+  background-color: $bpk-color-white;
+  box-shadow: 0 0 10px 0 $bpk-color-gray-700;
+
+  &_link {
+    svg {
+      display: block;
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &_burger {
+    position: relative;
+    width: 30px;
+    height: 24px;
+
+    &-checkbox {
+      display: none;
+
+      &:checked ~ .header_burger-label {
+        .header_burger-layer {
+          height: 0;
+          top: auto;
+          bottom: 0;
+        }
+        &:before {
+          top: 50%;
+          transform: rotate(45deg) translate(-3.5px, 0);
+        }
+        &:after {
+          bottom: 50%;
+          transform: rotate(135deg) translate(3.5px, 0);
+        }
+      }
+    }
+
+    &-label {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+
+      &:before,
+      &:after {
+        content: '';
+        @include burger-layer();
+      }
+
+      &:before {
+        top: 0;
+      }
+
+      &:after {
+        bottom: 0;
+      }
+    }
+
+    &-layer {
+      text-indent: -99999px;
+      top: 50%;
+      transform: translateY(-50%);
+      @include burger-layer();
+    }
+  }
+}
+
+.logo {
+  @include bpk-logo-inline(inline-blue-800);
+  height: 32px;
+  width: 168px;
+  vertical-align: middle;
+}
+
+.logoText {
+  @include bpk-visually-hidden;
+}

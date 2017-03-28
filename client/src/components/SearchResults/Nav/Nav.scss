@@ -1,0 +1,27 @@
+@import "~bpk-mixins";
+
+.sr {
+  &_nav {
+    &-list {
+      color: $bpk-color-blue-500;
+      overflow: auto;
+      padding: 10px;
+    }
+    &-item {
+      float: left;
+      font-size: 1.75rem;
+      margin-right: 30px;
+
+      svg {
+        float: left;
+        fill: $bpk-color-blue-500;
+      }
+
+      &--price-alert {
+        font-size: 1.25rem;
+        margin-right: 0;
+        float: right;
+      }
+    }
+  }
+}

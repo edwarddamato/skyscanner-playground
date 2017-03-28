@@ -1,0 +1,45 @@
+@import "~bpk-mixins";
+
+.sr {
+  &_header {
+    .bpk-grid__container {
+      background-color: $bpk-color-blue-700;
+    }
+
+    &-title {
+      float: left;
+      width: 100%;
+    }
+    &-location {
+      float: left;
+      color: $bpk-color-white;
+      font-size: 3em;
+      line-height: 100%;
+    }
+    &-arrow {
+      float: left;
+      margin: 13px 7px 0 7px;
+      svg {
+        fill: $bpk-color-white;
+      }
+    }
+
+    &-info {
+      &-list {
+        float: left;
+        width: 100%;
+        color: $bpk-color-blue-100;
+      }
+      &-item {
+        float: left;
+        &:after {
+          content: ',';
+          margin-right: .25em;
+        }
+        &:last-child::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

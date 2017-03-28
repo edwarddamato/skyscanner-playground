@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Results, Header renders correctly 1`] = `
+<header
+  className="sr_header"
+>
+  <div
+    className="bpk-grid__container bpk-grid__container--padded"
+  >
+    <div
+      className="bpk-grid__row"
+    >
+      <div
+        className="bpk-grid__column bpk-grid__column--12 bpk-grid__column--mobile-12 bpk-grid__column--tablet-12"
+      >
+        <div
+          className="sr_header-title"
+        >
+          <div
+            className="sr_header-location"
+          >
+            MLA
+          </div>
+          <div
+            className="sr_header-arrow"
+          >
+            <svg
+              height="24"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+              />
+            </svg>
+          </div>
+          <div
+            className="sr_header-location"
+          >
+            LHR
+          </div>
+        </div>
+        <ul
+          className="sr_header-info-list"
+        >
+          <li
+            className="sr_header-info-item"
+          >
+            4 travellers
+          </li>
+          <li
+            className="sr_header-info-item"
+          >
+            Economy
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+`;

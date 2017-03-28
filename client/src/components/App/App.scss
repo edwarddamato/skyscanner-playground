@@ -1,0 +1,15 @@
+@import "~bpk-mixins";
+@import '~bpk-stylesheets/base';
+
+body {
+  background-color: $bpk-color-gray-100;
+}
+.bpk-grid__container {
+  background-color: $bpk-color-white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

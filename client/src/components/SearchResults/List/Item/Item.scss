@@ -1,0 +1,55 @@
+@import "~bpk-mixins";
+
+.sr {
+  &_item {
+    &-container {
+      @include bpk-card();
+      padding: calc(#{$bpk-card-padding} + 10px);
+    }
+
+    &-flight {
+      &-list {
+      }
+      &-item {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-carriers {
+      color: $bpk-color-gray-300;
+      font-size: .175rem;
+    }
+
+    &-footer {
+      overflow: auto;
+      position: relative;
+    }
+    &-pricing {
+      float: left;
+    }
+    &-action {
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+    }
+
+    &-price,
+    &-agent {
+      display: block;
+
+      &--more {
+        font-size: .75rem;
+        line-height: 100%;
+      }
+    }
+
+    &-price {
+      font-size: 2.25rem;
+      line-height: 100%;
+    }
+
+    &-agent {
+      color: $bpk-color-gray-300;
+    }
+  }
+}

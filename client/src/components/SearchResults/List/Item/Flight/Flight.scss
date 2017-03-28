@@ -1,0 +1,89 @@
+@import "~bpk-mixins";
+
+.sr {
+  &_info {
+    &-list {
+      height: 48px;
+    }
+    &-item {
+      &--logo {
+        float: left;
+        margin-right: 18px;
+        width: 30px;
+        position: relative;
+        img {
+          @include bpk-border-radius-sm();
+          display: block;
+          width: 100%;
+        }
+        &--extra {
+          &:after {
+            content: attr(data-carrier-count);
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            font-size: .5rem;
+            color: $bpk-color-yellow-500;
+            width: 50px;
+            display: block;
+          }
+        }
+      }
+      &--part {
+        float: left;
+        width: 60px;
+        &--arrival {
+          width: 100px;
+        }
+      }
+      &--arrow {
+        float: left;
+        fill: $bpk-color-gray-300;
+        margin: 13px 18px 0 5px;
+        position: relative;
+      }
+      &--duration {
+        float: right;
+      }
+      &--days {
+        font-size: 1rem;
+        color: $bpk-color-red-300;
+      }
+    }
+
+    &-time,
+    &-airport,
+    &-duration,
+    &-stops {
+      display: block;
+    }
+
+    &-time {
+      font-size: 1.25rem;
+    }
+    &-airport {
+      font-size: 1rem;
+    }
+
+    &-duration,
+    &-stops {
+      text-align: right;
+    }
+
+    &-stops {
+      &--0 {
+        color: $bpk-color-green-500;
+      }
+      &--1,
+      &--2,
+      &--3 {
+        color: $bpk-color-red-500;
+      }
+    }
+
+    &-airport,
+    &-duration {
+      color: $bpk-color-gray-300;
+    }
+  }
+}

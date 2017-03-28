@@ -1,0 +1,1284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly with empty data set 1`] = `
+<section
+  className="sr_list-section"
+>
+  <div
+    className="bpk-grid__container bpk-grid__container--padded"
+  >
+    <div
+      className="bpk-grid__row"
+    >
+      <div
+        className="bpk-grid__column bpk-grid__column--12 bpk-grid__column--mobile-12 bpk-grid__column--tablet-12"
+      >
+        <section
+          className="bpk-banner-alert bpk-banner-alert--warn"
+        >
+          <header
+            className="bpk-banner-alert__header"
+            onClick={[Function]}
+          >
+            <span
+              className="bpk-banner-alert__icon"
+            >
+              <svg
+                className="bpk-banner-alert__warn-icon bpk-icon--align-to-button"
+                height="18"
+                style={
+                  Object {
+                    "height": "1.125rem",
+                    "width": "1.125rem",
+                  }
+                }
+                viewBox="0 0 18 18"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 1C4.6 1 1 4.6 1 9s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm1 12.4c0 .3-.3.6-.6.6h-.8c-.3 0-.6-.3-.6-.6V8.6c0-.3.3-.6.6-.6h.7c.4 0 .7.3.7.6v4.8zm0-8.1c0 .4-.3.7-.7.7h-.6c-.4 0-.7-.3-.7-.7v-.6c0-.4.3-.7.7-.7h.7c.3 0 .6.3.6.7v.6z"
+                />
+              </svg>
+            </span>
+             
+            <span
+              className="bpk-banner-alert__message"
+            >
+              No flights could be found with your search criteria. You may want to try alternative dates.
+            </span>
+             
+          </header>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`List renders correctly with populated data set sample 1 1`] = `
+<section
+  className="sr_list-section"
+>
+  <div
+    className="bpk-grid__container bpk-grid__container--padded"
+  >
+    <div
+      className="bpk-grid__row"
+    >
+      <div
+        className="bpk-grid__column bpk-grid__column--12 bpk-grid__column--mobile-12 bpk-grid__column--tablet-12"
+      >
+        <ul
+          className="sr_list"
+        >
+          <li
+            className="sr_item"
+          >
+            <div
+              className="sr_item-container"
+            >
+              <ul
+                className="sr_item-flight-list"
+              >
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo sr_info-item--logo--extra"
+                      data-carrier-count="+ 1 more"
+                      title="Flybe, Flybe"
+                    >
+                      <img
+                        alt="Flybe, Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        4h 12m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--3"
+                      >
+                        3 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                className="sr_item-footer"
+              >
+                <div
+                  className="sr_item-pricing"
+                >
+                  <span
+                    className="sr_item-price"
+                  >
+                    £NaN
+                  </span>
+                  <span
+                    className="sr_item-agent"
+                  >
+                    Agent 1, Agent 2
+                    <span
+                      className="sr_item-agent--more"
+                    >
+                       (+1 more deal)
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="sr_item-action"
+                >
+                  <a
+                    className="bpk-button bpk-button--large"
+                    href="http://"
+                    onClick={null}
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Select
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            className="sr_item"
+          >
+            <div
+              className="sr_item-container"
+            >
+              <ul
+                className="sr_item-flight-list"
+              >
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo sr_info-item--logo--extra"
+                      data-carrier-count="+ 1 more"
+                      title="Flybe, Flybe"
+                    >
+                      <img
+                        alt="Flybe, Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        4h 12m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--3"
+                      >
+                        3 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                className="sr_item-footer"
+              >
+                <div
+                  className="sr_item-pricing"
+                >
+                  <span
+                    className="sr_item-price"
+                  >
+                    £NaN
+                  </span>
+                  <span
+                    className="sr_item-agent"
+                  >
+                    Agent 1, Agent 2
+                    <span
+                      className="sr_item-agent--more"
+                    >
+                       (+1 more deal)
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="sr_item-action"
+                >
+                  <a
+                    className="bpk-button bpk-button--large"
+                    href="http://"
+                    onClick={null}
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Select
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`List renders correctly with populated data set sample 2 1`] = `
+<section
+  className="sr_list-section"
+>
+  <div
+    className="bpk-grid__container bpk-grid__container--padded"
+  >
+    <div
+      className="bpk-grid__row"
+    >
+      <div
+        className="bpk-grid__column bpk-grid__column--12 bpk-grid__column--mobile-12 bpk-grid__column--tablet-12"
+      >
+        <ul
+          className="sr_list"
+        >
+          <li
+            className="sr_item"
+          >
+            <div
+              className="sr_item-container"
+            >
+              <ul
+                className="sr_item-flight-list"
+              >
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        4h 12m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--3"
+                      >
+                        3 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        4h 12m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--3"
+                      >
+                        3 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                className="sr_item-footer"
+              >
+                <div
+                  className="sr_item-pricing"
+                >
+                  <span
+                    className="sr_item-price"
+                  >
+                    £NaN
+                  </span>
+                  <span
+                    className="sr_item-agent"
+                  >
+                    Agent 1, Agent 2
+                  </span>
+                </div>
+                <div
+                  className="sr_item-action"
+                >
+                  <a
+                    className="bpk-button bpk-button--large"
+                    href="http://"
+                    onClick={null}
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Select
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            className="sr_item"
+          >
+            <div
+              className="sr_item-container"
+            >
+              <ul
+                className="sr_item-flight-list"
+              >
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        4h 12m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--3"
+                      >
+                        3 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        4h 12m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--3"
+                      >
+                        3 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                className="sr_item-footer"
+              >
+                <div
+                  className="sr_item-pricing"
+                >
+                  <span
+                    className="sr_item-price"
+                  >
+                    £NaN
+                  </span>
+                  <span
+                    className="sr_item-agent"
+                  >
+                    Agent 1, Agent 2
+                  </span>
+                </div>
+                <div
+                  className="sr_item-action"
+                >
+                  <a
+                    className="bpk-button bpk-button--large"
+                    href="http://"
+                    onClick={null}
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Select
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`List renders correctly with populated data set sample 3 1`] = `
+<section
+  className="sr_list-section"
+>
+  <div
+    className="bpk-grid__container bpk-grid__container--padded"
+  >
+    <div
+      className="bpk-grid__row"
+    >
+      <div
+        className="bpk-grid__column bpk-grid__column--12 bpk-grid__column--mobile-12 bpk-grid__column--tablet-12"
+      >
+        <ul
+          className="sr_list"
+        >
+          <li
+            className="sr_item"
+          >
+            <div
+              className="sr_item-container"
+            >
+              <ul
+                className="sr_item-flight-list"
+              >
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        16h 40m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--1"
+                      >
+                        1 stop
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        1d 1h 52m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--2"
+                      >
+                        2 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                className="sr_item-footer"
+              >
+                <div
+                  className="sr_item-pricing"
+                >
+                  <span
+                    className="sr_item-price"
+                  >
+                    £NaN
+                  </span>
+                  <span
+                    className="sr_item-agent"
+                  >
+                    Agent 1, Agent 2
+                    <span
+                      className="sr_item-agent--more"
+                    >
+                       (+1 more deal)
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="sr_item-action"
+                >
+                  <a
+                    className="bpk-button bpk-button--large"
+                    href="http://"
+                    onClick={null}
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Select
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            className="sr_item"
+          >
+            <div
+              className="sr_item-container"
+            >
+              <ul
+                className="sr_item-flight-list"
+              >
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        16h 40m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--1"
+                      >
+                        1 stop
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="sr_item-flight-item"
+                >
+                  <ul
+                    className="sr_info-list"
+                  >
+                    <li
+                      className="sr_info-item sr_info-item--logo "
+                      data-carrier-count="+ 0 more"
+                      title="Flybe"
+                    >
+                      <img
+                        alt="Flybe"
+                        src="https://logos.skyscnr.com/images/airlines/favicon/BE.png"
+                      />
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        11:00
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        MLA
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--arrow"
+                    >
+                      <svg
+                        height="24"
+                        style={
+                          Object {
+                            "height": "1.5rem",
+                            "width": "1.5rem",
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7 0-.2 0-.4-.1-.6-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+                        />
+                      </svg>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--part sr_info-item--part--arrival"
+                    >
+                      <span
+                        className="sr_info-time"
+                      >
+                        13:00
+                         
+                        <span
+                          className="sr_info-item--days"
+                        >
+                          (+
+                          1
+                          )
+                        </span>
+                      </span>
+                      <span
+                        className="sr_info-airport"
+                      >
+                        LHR
+                      </span>
+                    </li>
+                    <li
+                      className="sr_info-item sr_info-item--duration"
+                    >
+                      <span
+                        className="sr_info-duration"
+                      >
+                        1d 1h 52m
+                      </span>
+                      <span
+                        className="sr_info-stops sr_info-stops--2"
+                      >
+                        2 stops
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                className="sr_item-footer"
+              >
+                <div
+                  className="sr_item-pricing"
+                >
+                  <span
+                    className="sr_item-price"
+                  >
+                    £NaN
+                  </span>
+                  <span
+                    className="sr_item-agent"
+                  >
+                    Agent 1, Agent 2
+                    <span
+                      className="sr_item-agent--more"
+                    >
+                       (+1 more deal)
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="sr_item-action"
+                >
+                  <a
+                    className="bpk-button bpk-button--large"
+                    href="http://"
+                    onClick={null}
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Select
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+`;

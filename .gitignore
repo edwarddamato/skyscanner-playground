@@ -1,0 +1,9 @@
+node_modules/
+server/.git
+client/.git
+server/.config.js
+.vscode
+npm-debug.log
+coverage/
+server/node_modules
+client/node_modules
